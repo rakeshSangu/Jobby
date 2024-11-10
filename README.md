@@ -1,64 +1,25 @@
-# Jobby WebApp
+# Jobby App
 
-Hello Everyone...!!!
+Jobby is a web application built with React, designed to help users easily find and apply for jobs. The app provides an intuitive and responsive interface for job seekers to browse through job listings, filter jobs by various parameters, and view detailed job descriptions.
 
-Hope Everyone is Doing Well...
+## Features
 
-I am glad to share **Jobby WebApp** which I built as part of my React Assignment.
+- **User Authentication**: Secure login functionality that allows users to access job listings and other protected resources.
+- **Job Listings**: A wide variety of job listings with detailed information such as job title, company name, salary range, and job description.
+- **Search & Filter**: Search for jobs using keywords and filter job listings based on parameters like employment type (full-time, part-time) and salary range.
+- **Job Details**: View in-depth information about job opportunities including the responsibilities, qualifications, and how to apply.
+- **Responsive Design**: Optimized for all devices to ensure a smooth experience on desktops, tablets, and smartphones.
 
-### Project Link
+## Tech Stack
 
-You can view the project live at:  
-[Jobby App](https://rakesh18jobby.ccbp.tech)
+- **Frontend**: React
+- **Backend**: API integration for fetching job data and managing user authentication
+- **Styling**: CSS/SCSS for custom styling and responsive design
 
-### Concepts Used:
-- React Components
-- Component lifecycle methods
-- Authentication/Authorization
+## Installation
 
-### Overview:
-In this project, I've built a **Jobby App** that allows users to log in, search for jobs, view job details, and apply filters for different job categories. It uses the concepts learned in React, including routing, state management, and API integration.
+To get started with the project locally:
 
-
-
-
-### Set Up Instructions:
-
-1. Clone the repository:  
-   `git clone https://github.com/your-username/jobby-app.git`
-   
-2. Navigate to the project directory:  
-   `cd jobby-app`
-
-3. Install dependencies:  
-   `npm install`
-
-4. Start the development server:  
-   `npm start`
-
-### Functionality to be added:
-
-#### **Login Route:**
-- When invalid credentials are provided, an error message should be shown.
-- On valid credentials, navigate to Home Route.
-- Unauthorized users should be redirected to the Login Route when accessing protected routes like Home, Jobs, and Job Item Details.
-
-#### **Jobs Route:**
-- Fetch jobs based on employment type, salary range, and search input.
-- Display appropriate success or failure views based on API responses.
-
-#### **Job Details Route:**
-- Display detailed job information when a job item is clicked.
-- Handle API failures and retry logic.
-
-### API Endpoints:
-
-#### **Login API:**
-- Method: `POST`
-- URL: `https://apis.ccbp.in/login`
-- Sample Request:
-  ```json
-  {
-    "username": "rahul",
-    "password": "rahul@2021"
-  }
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/jobby.git
