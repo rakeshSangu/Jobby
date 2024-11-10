@@ -1,0 +1,91 @@
+.company-role-jobItem-container {
+  display: flex;
+  align-items: center;
+}
+.jobItem-logo {
+  height: 8vh;
+  margin-right: 12px;
+}
+
+.jobItem-title {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.jobItem-rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+.jobItem-rating-icon {
+  height: 30px;
+  width: 30px;
+  color: #fbbf24;
+  margin-right: 5px;
+}
+.rating-para {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  margin: 0px;
+}
+.jobItem-location-type-salary-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.location-type-container {
+  display: flex;
+  align-items: center;
+}
+.logo-details-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.details-icon {
+  height: 20px;
+  width: 20px;
+  color: white;
+}
+.details-para {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.jobItem-package {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+.jobItem-line {
+  border-color: #7e858e;
+}
+
+.jobitem-description-para {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.jobItem-description {
+  color: #f1f5f9;
+  font-size: 17px;
+}
+.link-item {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .jobItem-logo {
+    height: 10vh;
+  }
+  .jobItem-title {
+    font-size: 28px;
+  }
+}

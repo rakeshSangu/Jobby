@@ -1,0 +1,24 @@
+.not-found-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  text-align: center;
+}
+.not-found-heading {
+  font-size: 40px;
+  color: #f1f5f9;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.not-found-para {
+  font-size: 20px;
+  font-weight: 500;
+  color:  #cbd5e1;
+  margin-top: 5px;
+}
+.not-found-image {
+  height: 40vh;
+}

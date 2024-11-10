@@ -1,0 +1,54 @@
+.jobItemDetails-container {
+  min-height: 100vh;
+  background-color: black;
+  padding: 15px;
+}
+.loader-container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure-jobItem-view-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.jobItem-failureView-image {
+  height: 30vh;
+}
+.jobItem-failureView-heading {
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.jobItem-failureView-para {
+  color: white;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.jobItem-failureView-button {
+  background-color: #4f46e5;
+  padding: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .jobItemDetails-container {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
